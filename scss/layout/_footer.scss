@@ -1,0 +1,18 @@
+footer{
+    background-color: #ced2d4;
+    h3{
+        padding: 0.2rem;
+        margin-left: 0.5rem;
+        font-size: 1rem;
+    }
+    .pie{
+        display: grid;
+        margin: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "ubicacion redes" ;
+        align-items: center;
+        justify-items: center;
+    }
+}
+

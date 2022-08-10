@@ -1,0 +1,114 @@
+.carruselsizes img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in; }
+
+main {
+  color: #0a557a; }
+  main .actividad {
+    text-align: center;
+    width: 60%;
+    margin: 3rem auto; }
+    main .actividad p {
+      padding: 1rem; }
+    main .actividad .casilla:hover {
+      background-color: #f1f5fa;
+      transition: all 0.5s ease-in;
+      border-radius: 20px; }
+    main .actividad .found h4:hover {
+      font-size: 1.8rem;
+      transition: all 0.7s ease-in; }
+  main .grid-found {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: ". . found found found found"; }
+  main .found {
+    grid-area: found;
+    text-align: justify;
+    width: 90%; }
+
+/* estilos nosotros */
+.nosotros {
+  display: grid;
+  grid-template-columns: 6, 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ". . mision mision mision" "vision vision vision . ." ". . objetivos objetivos objetivos";
+  color: #0a557a;
+  /* definiendo areas */ }
+  .nosotros .n1 {
+    grid-area: mision;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    padding: 1rem 2rem; }
+    .nosotros .n1:hover {
+      background-color: #f1f5fa;
+      transition: all 0.5s ease-in;
+      border-radius: 20px; }
+  .nosotros .n2 {
+    grid-area: vision;
+    width: 70%;
+    margin: 1rem;
+    text-align: justify;
+    padding: 1rem 2rem; }
+    .nosotros .n2:hover {
+      background-color: #f1f5fa;
+      transition: all 0.5s ease-in;
+      border-radius: 20px; }
+  .nosotros .n3 {
+    padding: 1rem 2rem;
+    grid-area: objetivos;
+    width: 70%;
+    margin: auto;
+    text-align: justify; }
+    .nosotros .n3:hover {
+      background-color: #f1f5fa;
+      transition: all 0.5s ease-in;
+      border-radius: 20px; }
+  .nosotros h2 {
+    text-align: center;
+    margin: 2rem; }
+
+.ley {
+  text-align: justify;
+  margin-bottom: 2rem;
+  color: #0a557a;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 2rem; }
+  .ley h3 {
+    color: #0a557a;
+    text-align: center; }
+  .ley li {
+    list-style: decimal; }
+  .ley:hover {
+    background-color: #f1f5fa;
+    transition: all 0.5s ease-in;
+    border-radius: 20px; }
+
+.productos {
+  width: 85%;
+  margin: auto;
+  margin-top: 3rem;
+  color: #0a557a; }
+
+.formulario {
+  width: 70%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: justify; }
+
+footer {
+  background-color: #ced2d4; }
+  footer h3 {
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+    font-size: 1rem; }
+  footer .pie {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "ubicacion redes";
+    align-items: center;
+    justify-items: center; }
